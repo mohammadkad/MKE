@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-t7zB1smz3L_rBJSivt0qag" name=",_cCICAGRqEeuSENqrckJBtA" guid="-t7zB1smz3L_rBJSivt0qag" changeDate="2021-02-01T12:23:44.058+0330">
+  <mainDescription>&lt;p>&#xD;
+    The 1-year bucket (Ideas)&lt;br />&#xD;
+    The 6-month bucket (Requirements)&lt;br />&#xD;
+    The 3-month bucket (Tasks)&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-P9qXk5oAmGDVaQOojRHU5A" name="Scrumbanfall Process for Saba,_N9B9YWE6EeuDLI5SA8VEZw" guid="-P9qXk5oAmGDVaQOojRHU5A"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7ecWj78Yokmq4J1tAQZ_OQ" name="bucket_size_planning,_JfkTgGRvEeuSENqrckJBtA" guid="-7ecWj78Yokmq4J1tAQZ_OQ">
+    <refinedDescription>&lt;p>&#xD;
+    The 1-year bucket (Ideas)&lt;br />&#xD;
+    The 6-month bucket (Requirements)&lt;br />&#xD;
+    The 3-month bucket (Tasks)&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

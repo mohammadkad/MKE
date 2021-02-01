@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_r2PB0GB2Eeu8LsvBwJhEBw" guid="_r2PB0GB2Eeu8LsvBwJhEBw">
+    <subManagers xmi:id="_1DATYGB2Eeu8LsvBwJhEBw" href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_1DATYGB2Eeu8LsvBwJhEBw"/>
+    <subManagers xmi:id="_4BsSEGB2Eeu8LsvBwJhEBw" href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_4BsSEGB2Eeu8LsvBwJhEBw"/>
+    <subManagers xmi:id="_aV7-cWB3Eeu8LsvBwJhEBw" href="uma://_aV7-YGB3Eeu8LsvBwJhEBw#_aV7-cWB3Eeu8LsvBwJhEBw"/>
+    <subManagers xmi:id="_0yze0WB3Eeu8LsvBwJhEBw" href="uma://_0yzewGB3Eeu8LsvBwJhEBw#_0yze0WB3Eeu8LsvBwJhEBw"/>
+    <subManagers xmi:id="_9K9ckWB3Eeu8LsvBwJhEBw" href="uma://_9K9cgGB3Eeu8LsvBwJhEBw#_9K9ckWB3Eeu8LsvBwJhEBw"/>
+    <resourceDescriptors xmi:id="_r2QP8GB2Eeu8LsvBwJhEBw" id="_r2NzsGB2Eeu8LsvBwJhEBw" uri=""/>
+    <resourceDescriptors xmi:id="_1DATYWB2Eeu8LsvBwJhEBw" id="_6Ab_EOF4Edyp34pwdTOSVQ" uri="Scrum/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_4BsSEWB2Eeu8LsvBwJhEBw" id="{35DCB3E1-2766-423E-A849-57ECD4F41A40}" uri="xp/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_aV7-cmB3Eeu8LsvBwJhEBw" id="_aV7-YGB3Eeu8LsvBwJhEBw" uri="Scrumban/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_0yze0mB3Eeu8LsvBwJhEBw" id="_0yzewGB3Eeu8LsvBwJhEBw" uri="Kanban/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_9K9ckmB3Eeu8LsvBwJhEBw" id="_9K9cgGB3Eeu8LsvBwJhEBw" uri="Scrumbanfall/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_r2NzsGB2Eeu8LsvBwJhEBw" name="MKE" guid="_r2NzsGB2Eeu8LsvBwJhEBw" briefDescription="Eclipse Process Framework (EPF) Method Library Project based on XP, Scrum, Scrumban, Scrumbanfall and Kanban in Eclipse Process Framework Composer.">
+    <methodElementProperty xmi:id="_r3QVgGB2Eeu8LsvBwJhEBw" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_6Ab_EOF4Edyp34pwdTOSVQ" href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_6Ab_EOF4Edyp34pwdTOSVQ"/>
+    <methodPlugins xmi:id="{35DCB3E1-2766-423E-A849-57ECD4F41A40}" href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{35DCB3E1-2766-423E-A849-57ECD4F41A40}"/>
+    <methodPlugins xmi:id="_aV7-YGB3Eeu8LsvBwJhEBw" href="uma://_aV7-YGB3Eeu8LsvBwJhEBw#_aV7-YGB3Eeu8LsvBwJhEBw"/>
+    <methodPlugins xmi:id="_0yzewGB3Eeu8LsvBwJhEBw" href="uma://_0yzewGB3Eeu8LsvBwJhEBw#_0yzewGB3Eeu8LsvBwJhEBw"/>
+    <methodPlugins xmi:id="_9K9cgGB3Eeu8LsvBwJhEBw" href="uma://_9K9cgGB3Eeu8LsvBwJhEBw#_9K9cgGB3Eeu8LsvBwJhEBw"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>

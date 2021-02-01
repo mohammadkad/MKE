@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9K9ckWB3Eeu8LsvBwJhEBw" guid="_9K9ckWB3Eeu8LsvBwJhEBw">
+    <subManagers xmi:id="_N9pBYGE6EeuDLI5SA8VEZw" href="uma://_N9B9YGE6EeuDLI5SA8VEZw#_N9pBYGE6EeuDLI5SA8VEZw"/>
+    <resourceDescriptors xmi:id="_N9nzQGE6EeuDLI5SA8VEZw" id="_N9B9YGE6EeuDLI5SA8VEZw" uri="deliveryprocesses/Scrumbanfall%20Process%20for%20Saba/model.xmi"/>
+    <resourceDescriptors xmi:id="_DYgLcGRrEeuSENqrckJBtA" id="-t7zB1smz3L_rBJSivt0qag" uri="tasks/bucket_size_planning.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_9K9cgGB3Eeu8LsvBwJhEBw" name="Scrumbanfall" guid="_9K9cgGB3Eeu8LsvBwJhEBw" briefDescription="Scrumbanfall is the agile hybridization of Scrum and&#xD;&#xA;Kanban with Waterfall in Software Engineering Management&#xD;&#xA;(SEM).">
+    <methodElementProperty xmi:id="_9K9ck2B3Eeu8LsvBwJhEBw" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K9cgWB3Eeu8LsvBwJhEBw" name="Content" guid="_9K9cgWB3Eeu8LsvBwJhEBw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K9cgmB3Eeu8LsvBwJhEBw" name="Categories" guid="_9K9cgmB3Eeu8LsvBwJhEBw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K9cg2B3Eeu8LsvBwJhEBw" name="Domains" guid="_9K9cg2B3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K9chGB3Eeu8LsvBwJhEBw" name="Disciplines" guid="_9K9chGB3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K9chWB3Eeu8LsvBwJhEBw" name="RoleSets" guid="_9K9chWB3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K9chmB3Eeu8LsvBwJhEBw" name="WP Types" guid="_9K9chmB3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K9ch2B3Eeu8LsvBwJhEBw" name="Tools" guid="_9K9ch2B3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K9ciGB3Eeu8LsvBwJhEBw" name="StandardCategories" guid="_9K9ciGB3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K9ciWB3Eeu8LsvBwJhEBw" name="CustomCategories" guid="_9K9ciWB3Eeu8LsvBwJhEBw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K9cimB3Eeu8LsvBwJhEBw" name="Hidden" guid="_9K9cimB3Eeu8LsvBwJhEBw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9K9ci2B3Eeu8LsvBwJhEBw" name="Custom Categories" guid="_9K9ci2B3Eeu8LsvBwJhEBw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K9cjGB3Eeu8LsvBwJhEBw" name="CoreContent" guid="_9K9cjGB3Eeu8LsvBwJhEBw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gzWqgGE3EeuDLI5SA8VEZw" name="scrumbanfall" guid="_gzWqgGE3EeuDLI5SA8VEZw" presentationName="Scrumbanfall">
+          <methodElementProperty xmi:id="_gzZGwGE3EeuDLI5SA8VEZw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_h4lNMGE3EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_okC_oGE3EeuDLI5SA8VEZw" name="requirement_analysis" guid="_okC_oGE3EeuDLI5SA8VEZw" presentationName="Requirement Analysis">
+            <methodElementProperty xmi:id="_QOthkGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_sjZxIGE3EeuDLI5SA8VEZw" name="project_planning" guid="_sjZxIGE3EeuDLI5SA8VEZw" presentationName="Project Planning">
+            <methodElementProperty xmi:id="_QONyUmE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_1NlTAGE3EeuDLI5SA8VEZw" name="kanban_board" guid="_1NlTAGE3EeuDLI5SA8VEZw" presentationName="Kanban Board">
+            <methodElementProperty xmi:id="_QONyUGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="__A_t0GE3EeuDLI5SA8VEZw" name="daily_scrum" guid="__A_t0GE3EeuDLI5SA8VEZw" presentationName="Daily Scrum">
+            <methodElementProperty xmi:id="_QOEoYGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BfhlwGE4EeuDLI5SA8VEZw" name="sprint_planning" guid="_BfhlwGE4EeuDLI5SA8VEZw" presentationName="Sprint Planning">
+            <methodElementProperty xmi:id="_QN63YGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_EJEa4GE4EeuDLI5SA8VEZw" name="sprint_review" guid="_EJEa4GE4EeuDLI5SA8VEZw" presentationName="Sprint Review">
+            <methodElementProperty xmi:id="_QN5pQGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_FtLR8GE4EeuDLI5SA8VEZw" name="sprint_retrospective" guid="_FtLR8GE4EeuDLI5SA8VEZw" presentationName="Sprint Retrospective">
+            <methodElementProperty xmi:id="_QNPh8mE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_U9v5AGE4EeuDLI5SA8VEZw" name="continuous_integration_ci" guid="_U9v5AGE4EeuDLI5SA8VEZw" presentationName="Continuous Integration (CI)">
+            <methodElementProperty xmi:id="_QNGYAmE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ZgmZIGE4EeuDLI5SA8VEZw" name="continuous_delivery_cd" guid="_ZgmZIGE4EeuDLI5SA8VEZw" presentationName="Continuous Delivery (CD)">
+            <methodElementProperty xmi:id="_QNGYAGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_eyyrgGE4EeuDLI5SA8VEZw" name="documentation" guid="_eyyrgGE4EeuDLI5SA8VEZw" presentationName="Documentation">
+            <methodElementProperty xmi:id="_QM8nAGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0IlkYGE4EeuDLI5SA8VEZw" name="sprint_backlog_pool_sbp" guid="_0IlkYGE4EeuDLI5SA8VEZw" presentationName="Sprint Backlog Pool (SBP)">
+            <methodElementProperty xmi:id="_QMy2AmE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2WfmYGE4EeuDLI5SA8VEZw" name="product_backlog_pool_pbp" guid="_2WfmYGE4EeuDLI5SA8VEZw" presentationName="Product Backlog Pool (PBP)">
+            <methodElementProperty xmi:id="_QMXYMGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8lxMEGE4EeuDLI5SA8VEZw" name="product_backlog_refinement" guid="_8lxMEGE4EeuDLI5SA8VEZw" presentationName="Product Backlog Refinement">
+            <methodElementProperty xmi:id="_QMy2AGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Jp2GYGE5EeuDLI5SA8VEZw" name="product_release" guid="_Jp2GYGE5EeuDLI5SA8VEZw" presentationName="Product Release">
+            <methodElementProperty xmi:id="_QMes8GE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_TWVZ0GE5EeuDLI5SA8VEZw" name="scrumbanfall_document_sd" guid="_TWVZ0GE5EeuDLI5SA8VEZw" presentationName="Scrumbanfall Document (SD)">
+            <methodElementProperty xmi:id="_VWodoGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ZpahcGE5EeuDLI5SA8VEZw" name="product_increment_pi" guid="_ZpahcGE5EeuDLI5SA8VEZw" presentationName="Product Increment (PI)">
+            <methodElementProperty xmi:id="_aesjoGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_cP40cGE5EeuDLI5SA8VEZw" name="product_release_pool_prp" guid="_cP40cGE5EeuDLI5SA8VEZw" presentationName="Product Release Pool (PRP)">
+            <methodElementProperty xmi:id="_dEtjoGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_fuu54GE5EeuDLI5SA8VEZw" name="to_do" guid="_fuu54GE5EeuDLI5SA8VEZw" presentationName="To Do">
+            <methodElementProperty xmi:id="_lnqcIGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_iUzkQGE5EeuDLI5SA8VEZw" name="in_progress" guid="_iUzkQGE5EeuDLI5SA8VEZw" presentationName="In Progress">
+            <methodElementProperty xmi:id="_lnnY0GE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_kUNQMGE5EeuDLI5SA8VEZw" name="done" guid="_kUNQMGE5EeuDLI5SA8VEZw" presentationName="Done">
+            <methodElementProperty xmi:id="_lnh5QGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_rqL_QGE5EeuDLI5SA8VEZw" name="work_in_progress_wim" guid="_rqL_QGE5EeuDLI5SA8VEZw" presentationName="Work In Progress (WIM)">
+            <methodElementProperty xmi:id="_yMpmsGE5EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_UoX0AGE6EeuDLI5SA8VEZw" name="task_board" guid="_UoX0AGE6EeuDLI5SA8VEZw" presentationName="Task Board">
+            <methodElementProperty xmi:id="_V_XcIGE6EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_lRcjMGRoEeuSENqrckJBtA" name="stakeholder" guid="_lRcjMGRoEeuSENqrckJBtA" presentationName="Stakeholder">
+            <methodElementProperty xmi:id="_qlMp4mRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_njSC8GRoEeuSENqrckJBtA" name="product_owner" guid="_njSC8GRoEeuSENqrckJBtA" presentationName="Product owner">
+            <methodElementProperty xmi:id="_qlMp4GRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_pANT8GRoEeuSENqrckJBtA" name="team_member" guid="_pANT8GRoEeuSENqrckJBtA" presentationName="Team member">
+            <methodElementProperty xmi:id="_qlHKUGRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_rKmH4GRoEeuSENqrckJBtA" name="team_lead" guid="_rKmH4GRoEeuSENqrckJBtA" presentationName="Team lead" briefDescription="The team lead is a host leader and also the agile coach, responsible for facilitating communication, empowering them to choose their way of working, and ensuring the team has the resources it needs and is free of obstacles.">
+            <methodElementProperty xmi:id="_qkcb8GRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_vBqgEGRoEeuSENqrckJBtA" name="architecture_owner" guid="_vBqgEGRoEeuSENqrckJBtA" presentationName="Architecture owner" briefDescription="Owns the architecture decisions for the team and facilitates the creation and evolution of the overall solution design">
+            <methodElementProperty xmi:id="_qkQOsGRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_yZ8qgGRoEeuSENqrckJBtA" name="specialist" guid="_yZ8qgGRoEeuSENqrckJBtA" presentationName="Specialist">
+            <methodElementProperty xmi:id="_qjh18GRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_z5WAsGRoEeuSENqrckJBtA" name="domain_expert" guid="_z5WAsGRoEeuSENqrckJBtA" presentationName="Domain expert">
+            <methodElementProperty xmi:id="_qjbIQGRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_1ZZeMGRoEeuSENqrckJBtA" name="technical_expert" guid="_1ZZeMGRoEeuSENqrckJBtA" presentationName="Technical expert">
+            <methodElementProperty xmi:id="_qjRXQGRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_20pUMGRoEeuSENqrckJBtA" name="independent_tester" guid="_20pUMGRoEeuSENqrckJBtA" presentationName="Independent tester">
+            <methodElementProperty xmi:id="_qjQJIGRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_4YOm0GRoEeuSENqrckJBtA" name="integrator" guid="_4YOm0GRoEeuSENqrckJBtA" presentationName="Integrator" briefDescription="For complex technical solutions at scale, an integrator (or multiple integrators) can be used to build the entire system from its various subsystems">
+            <methodElementProperty xmi:id="_qjJbcGRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ZyVwsGRqEeuSENqrckJBtA" name="on_demand_planning" guid="_ZyVwsGRqEeuSENqrckJBtA" presentationName="On demand planning">
+            <methodElementProperty xmi:id="_qgAA0GRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_cCICAGRqEeuSENqrckJBtA" name="bucket_size_planning" guid="_cCICAGRqEeuSENqrckJBtA" presentationName="Bucket size planning" briefDescription="Long-term Prioritization">
+            <methodElementProperty xmi:id="_qf56MGRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+            <presentation xmi:id="-t7zB1smz3L_rBJSivt0qag" href="uma://-t7zB1smz3L_rBJSivt0qag#-t7zB1smz3L_rBJSivt0qag"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_fbVZgGRqEeuSENqrckJBtA" name="pull_principle" guid="_fbVZgGRqEeuSENqrckJBtA" presentationName="Pull principle">
+            <methodElementProperty xmi:id="_qfr3wmRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_hnB1AGRqEeuSENqrckJBtA" name="feature_freeze" guid="_hnB1AGRqEeuSENqrckJBtA" presentationName="Feature freeze">
+            <methodElementProperty xmi:id="_qfr3wGRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_jWPv4GRqEeuSENqrckJBtA" name="triage" guid="_jWPv4GRqEeuSENqrckJBtA" presentationName="Triage">
+            <methodElementProperty xmi:id="_qfit0GRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nVaUIGRqEeuSENqrckJBtA" name="prioritization" guid="_nVaUIGRqEeuSENqrckJBtA" presentationName="Prioritization">
+            <methodElementProperty xmi:id="_qfRBAGRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_3l78UGRqEeuSENqrckJBtA" name="iteration" guid="_3l78UGRqEeuSENqrckJBtA" presentationName="Iteration">
+            <methodElementProperty xmi:id="_8GVlYGRqEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Ls3OUGRrEeuSENqrckJBtA" name="review_meeting" guid="_Ls3OUGRrEeuSENqrckJBtA" presentationName="Review meeting">
+            <methodElementProperty xmi:id="_7EdcMGRrEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_O2vJUGRrEeuSENqrckJBtA" name="standup_meeting" guid="_O2vJUGRrEeuSENqrckJBtA" presentationName="Standup meeting">
+            <methodElementProperty xmi:id="_7Dz78GRrEeuSENqrckJBtA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9K9cjWB3Eeu8LsvBwJhEBw" name="CapabilityPatterns" guid="_9K9cjWB3Eeu8LsvBwJhEBw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9K9cjmB3Eeu8LsvBwJhEBw" name="DeliveryProcesses" guid="_9K9cjmB3Eeu8LsvBwJhEBw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_N9B9YGE6EeuDLI5SA8VEZw" href="uma://_N9B9YGE6EeuDLI5SA8VEZw#_N9B9YGE6EeuDLI5SA8VEZw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9K9cj2B3Eeu8LsvBwJhEBw" name="ProcessContributions" guid="_9K9cj2B3Eeu8LsvBwJhEBw"/>
+    <bases href="uma://_0yzewGB3Eeu8LsvBwJhEBw#_0yzewGB3Eeu8LsvBwJhEBw"/>
+    <bases href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_6Ab_EOF4Edyp34pwdTOSVQ"/>
+    <bases href="uma://_aV7-YGB3Eeu8LsvBwJhEBw#_aV7-YGB3Eeu8LsvBwJhEBw"/>
+    <bases href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{35DCB3E1-2766-423E-A849-57ECD4F41A40}"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

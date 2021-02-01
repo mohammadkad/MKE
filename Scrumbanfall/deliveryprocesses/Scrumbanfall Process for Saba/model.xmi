@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_N9pBYGE6EeuDLI5SA8VEZw" guid="_N9pBYGE6EeuDLI5SA8VEZw">
+    <resourceDescriptors xmi:id="_N9pBYWE6EeuDLI5SA8VEZw" id="-P9qXk5oAmGDVaQOojRHU5A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_N0UtQWRvEeuSENqrckJBtA" id="-7ecWj78Yokmq4J1tAQZ_OQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_N9B9YGE6EeuDLI5SA8VEZw" name="Scrumbanfall Process for Saba" guid="_N9B9YGE6EeuDLI5SA8VEZw">
+    <methodElementProperty xmi:id="_N9GO0GE6EeuDLI5SA8VEZw" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_xuqNsGE6EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_tf1c0GE6EeuDLI5SA8VEZw" name="Pre Project" guid="_tf1c0GE6EeuDLI5SA8VEZw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_nHZaQGOOEeu4GMvjStPZQQ" name="Initiation" guid="_nHZaQGOOEeu4GMvjStPZQQ">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_nHZaQWOOEeu4GMvjStPZQQ" name="Initiation" guid="_nHZaQWOOEeu4GMvjStPZQQ" presentationName="Initiation" superActivities="_tf1c0WE6EeuDLI5SA8VEZw" breakdownElements="_pJ6EkGOOEeu4GMvjStPZQQ _ry_msGOOEeu4GMvjStPZQQ"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_pJ6EkGOOEeu4GMvjStPZQQ" name="Hold the first meeting" guid="_pJ6EkGOOEeu4GMvjStPZQQ" presentationName="Hold the first meeting" superActivities="_nHZaQWOOEeu4GMvjStPZQQ" isSynchronizedWithSource="false"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ry_msGOOEeu4GMvjStPZQQ" name="Form a team of analyzers" guid="_ry_msGOOEeu4GMvjStPZQQ" presentationName="Form a team of analyzers" superActivities="_nHZaQWOOEeu4GMvjStPZQQ" isSynchronizedWithSource="false"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_TNkp4GRvEeuSENqrckJBtA" name="Agreement Iteration" guid="_TNkp4GRvEeuSENqrckJBtA">
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_TNkp4WRvEeuSENqrckJBtA" name="Agreement Iteration" guid="_TNkp4WRvEeuSENqrckJBtA" presentationName="Agreement Iteration" superActivities="_tf1c0WE6EeuDLI5SA8VEZw" isRepeatable="true" breakdownElements="_VRuS8GRvEeuSENqrckJBtA _XX1D0GRvEeuSENqrckJBtA _alyNkGRvEeuSENqrckJBtA _dbsqwGRvEeuSENqrckJBtA _gddLkGRvEeuSENqrckJBtA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_VRuS8GRvEeuSENqrckJBtA" name="ISF Assessment" guid="_VRuS8GRvEeuSENqrckJBtA" presentationName="ISF Assessment" superActivities="_TNkp4WRvEeuSENqrckJBtA" isSynchronizedWithSource="false"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_XX1D0GRvEeuSENqrckJBtA" name="Identify project Scope" guid="_XX1D0GRvEeuSENqrckJBtA" presentationName="Identify Project Scope" superActivities="_TNkp4WRvEeuSENqrckJBtA" isSynchronizedWithSource="false"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_alyNkGRvEeuSENqrckJBtA" name="Identify Initial Risks" guid="_alyNkGRvEeuSENqrckJBtA" presentationName="Identify Initial Risks" superActivities="_TNkp4WRvEeuSENqrckJBtA" isSynchronizedWithSource="false"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_dbsqwGRvEeuSENqrckJBtA" name="Feasibility Analysis" guid="_dbsqwGRvEeuSENqrckJBtA" presentationName="Feasibility Analysis" superActivities="_TNkp4WRvEeuSENqrckJBtA" isSynchronizedWithSource="false"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_gddLkGRvEeuSENqrckJBtA" name="Agreement Meeting" guid="_gddLkGRvEeuSENqrckJBtA" presentationName="Agreement Meeting" superActivities="_TNkp4WRvEeuSENqrckJBtA" isSynchronizedWithSource="false"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_nrb1MGRvEeuSENqrckJBtA" name="Foundation" guid="_nrb1MGRvEeuSENqrckJBtA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_OpbT0GRwEeuSENqrckJBtA" name="Prepare project on ISF" guid="_OpbT0GRwEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_OpbT0WRwEeuSENqrckJBtA" name="Prepare project on ISF" guid="_OpbT0WRwEeuSENqrckJBtA" presentationName="Prepare project on ISF" superActivities="_nrb1MWRvEeuSENqrckJBtA" breakdownElements="_VAgxsGRwEeuSENqrckJBtA _Z1UkgGRwEeuSENqrckJBtA _eKmisGRwEeuSENqrckJBtA _gJOykGRwEeuSENqrckJBtA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_VAgxsGRwEeuSENqrckJBtA" name="Tailor process" guid="_VAgxsGRwEeuSENqrckJBtA" presentationName="Tailor The Process" superActivities="_OpbT0WRwEeuSENqrckJBtA" isSynchronizedWithSource="false"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Z1UkgGRwEeuSENqrckJBtA" name="Set Up Tools" guid="_Z1UkgGRwEeuSENqrckJBtA" presentationName="Set Up Tools" superActivities="_OpbT0WRwEeuSENqrckJBtA" isSynchronizedWithSource="false"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_eKmisGRwEeuSENqrckJBtA" name="Deploy the Process" guid="_eKmisGRwEeuSENqrckJBtA" presentationName="Deploy the Process" superActivities="_OpbT0WRwEeuSENqrckJBtA" isSynchronizedWithSource="false"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_gJOykGRwEeuSENqrckJBtA" name="Create the Teams" guid="_gJOykGRwEeuSENqrckJBtA" presentationName="Create the Teams" superActivities="_OpbT0WRwEeuSENqrckJBtA" isSynchronizedWithSource="false"/>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_nrb1MWRvEeuSENqrckJBtA" name="Foundation" guid="_nrb1MWRvEeuSENqrckJBtA" presentationName="Foundation" superActivities="_tf1c0WE6EeuDLI5SA8VEZw" breakdownElements="_OpbT0WRwEeuSENqrckJBtA"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_tf1c0WE6EeuDLI5SA8VEZw" name="Pre Project" guid="_tf1c0WE6EeuDLI5SA8VEZw" presentationName="Pre Project" superActivities="_N9B9YWE6EeuDLI5SA8VEZw" breakdownElements="_nHZaQWOOEeu4GMvjStPZQQ _TNkp4WRvEeuSENqrckJBtA _nrb1MWRvEeuSENqrckJBtA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ylo5AGE6EeuDLI5SA8VEZw" name="Post Project" guid="_ylo5AGE6EeuDLI5SA8VEZw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_FgLQYGE7EeuDLI5SA8VEZw" name="Support ans Maintenance" guid="_FgLQYGE7EeuDLI5SA8VEZw">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_FgLQYWE7EeuDLI5SA8VEZw" name="Support ans Maintenance" guid="_FgLQYWE7EeuDLI5SA8VEZw" presentationName="Support ans Maintenance" superActivities="_ylo5AWE6EeuDLI5SA8VEZw" breakdownElements="_mYOckGONEeu4GMvjStPZQQ"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_mYOckGONEeu4GMvjStPZQQ" name="Repeat" guid="_mYOckGONEeu4GMvjStPZQQ" presentationName="Repeat" superActivities="_FgLQYWE7EeuDLI5SA8VEZw" isSynchronizedWithSource="false"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_oqrAUGONEeu4GMvjStPZQQ" name="Marketing" guid="_oqrAUGONEeu4GMvjStPZQQ">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_oqrAUWONEeu4GMvjStPZQQ" name="Marketing" guid="_oqrAUWONEeu4GMvjStPZQQ" presentationName="Marketing" superActivities="_ylo5AWE6EeuDLI5SA8VEZw" breakdownElements="_sAcpUGONEeu4GMvjStPZQQ"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sAcpUGONEeu4GMvjStPZQQ" name="Compare " guid="_sAcpUGONEeu4GMvjStPZQQ" presentationName="Compare Product with Competitors" superActivities="_oqrAUWONEeu4GMvjStPZQQ" isSynchronizedWithSource="false"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xt3LIGRpEeuSENqrckJBtA" name="Develop Benefit Assessment" guid="_xt3LIGRpEeuSENqrckJBtA">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xt3LIWRpEeuSENqrckJBtA" name="Develop Benefit Assessment" guid="_xt3LIWRpEeuSENqrckJBtA" presentationName="Develop Benefit Assessment" superActivities="_ylo5AWE6EeuDLI5SA8VEZw" breakdownElements="_4KVfUGRpEeuSENqrckJBtA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4KVfUGRpEeuSENqrckJBtA" name="Benefit Assessment Documentation" guid="_4KVfUGRpEeuSENqrckJBtA" presentationName="Benefit Assessment Documentation" superActivities="_xt3LIWRpEeuSENqrckJBtA" isSynchronizedWithSource="false"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_ylo5AWE6EeuDLI5SA8VEZw" name="Post Project" guid="_ylo5AWE6EeuDLI5SA8VEZw" presentationName="Post Project" superActivities="_N9B9YWE6EeuDLI5SA8VEZw" breakdownElements="_FgLQYWE7EeuDLI5SA8VEZw _xt3LIWRpEeuSENqrckJBtA _oqrAUWONEeu4GMvjStPZQQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_16YAMGE6EeuDLI5SA8VEZw" name="Project" guid="_16YAMGE6EeuDLI5SA8VEZw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_48g7gGE6EeuDLI5SA8VEZw" name="Inception" guid="_48g7gGE6EeuDLI5SA8VEZw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_1jDykGOOEeu4GMvjStPZQQ" name="Initiate project" guid="_1jDykGOOEeu4GMvjStPZQQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_16dZUGRnEeuSENqrckJBtA" name="Explore Scope" guid="_16dZUGRnEeuSENqrckJBtA">
+            <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_16dZUWRnEeuSENqrckJBtA" name="Explore Scope" guid="_16dZUWRnEeuSENqrckJBtA" presentationName="Explore Scope" superActivities="_1jDykWOOEeu4GMvjStPZQQ"/>
+          </childPackages>
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_1jDykWOOEeu4GMvjStPZQQ" name="Initiate project" guid="_1jDykWOOEeu4GMvjStPZQQ" presentationName="Initiate project" superActivities="_48g7gWE6EeuDLI5SA8VEZw" breakdownElements="_U8tCAGRrEeuSENqrckJBtA _38gWMGOOEeu4GMvjStPZQQ _16dZUWRnEeuSENqrckJBtA _7EbwcGOOEeu4GMvjStPZQQ"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_38gWMGOOEeu4GMvjStPZQQ" name="Product Vision" guid="_38gWMGOOEeu4GMvjStPZQQ" presentationName="Product Vision" superActivities="_1jDykWOOEeu4GMvjStPZQQ" isSynchronizedWithSource="false"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_7EbwcGOOEeu4GMvjStPZQQ" name="Planning" guid="_7EbwcGOOEeu4GMvjStPZQQ" presentationName="Planning" superActivities="_1jDykWOOEeu4GMvjStPZQQ" isSynchronizedWithSource="false"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_U8tCAGRrEeuSENqrckJBtA" name="Goals" guid="_U8tCAGRrEeuSENqrckJBtA" presentationName="Goals" superActivities="_1jDykWOOEeu4GMvjStPZQQ" isSynchronizedWithSource="false"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_95cOsGOOEeu4GMvjStPZQQ" name="Identify Requirements" guid="_95cOsGOOEeu4GMvjStPZQQ">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_95cOsWOOEeu4GMvjStPZQQ" name="Identify Requirements" guid="_95cOsWOOEeu4GMvjStPZQQ" presentationName="Identify Requirements" superActivities="_48g7gWE6EeuDLI5SA8VEZw" breakdownElements="_JfkTgGRvEeuSENqrckJBtA _K68FUGRvEeuSENqrckJBtA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_JfkTgGRvEeuSENqrckJBtA" name="bucket_size_planning" guid="_JfkTgGRvEeuSENqrckJBtA" presentationName="Bucket size planning" briefDescription="Long-term Prioritization" superActivities="_95cOsWOOEeu4GMvjStPZQQ">
+            <methodElementProperty xmi:id="_JfkTgWRvEeuSENqrckJBtA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <presentation xmi:id="-7ecWj78Yokmq4J1tAQZ_OQ" href="uma://-P9qXk5oAmGDVaQOojRHU5A#-7ecWj78Yokmq4J1tAQZ_OQ"/>
+            <Task href="uma://_9K9cgGB3Eeu8LsvBwJhEBw#_cCICAGRqEeuSENqrckJBtA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K68FUGRvEeuSENqrckJBtA" name="prioritization" guid="_K68FUGRvEeuSENqrckJBtA" presentationName="Prioritization" superActivities="_95cOsWOOEeu4GMvjStPZQQ">
+            <methodElementProperty xmi:id="_K68FUWRvEeuSENqrckJBtA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_9K9cgGB3Eeu8LsvBwJhEBw#_nVaUIGRqEeuSENqrckJBtA"/>
+          </processElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_C9UYQGOPEeu4GMvjStPZQQ" name="Study Environment" guid="_C9UYQGOPEeu4GMvjStPZQQ">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_C9UYQWOPEeu4GMvjStPZQQ" name="Study Environment" guid="_C9UYQWOPEeu4GMvjStPZQQ" presentationName="Study Environment" superActivities="_48g7gWE6EeuDLI5SA8VEZw" breakdownElements="_F0HmQGOPEeu4GMvjStPZQQ _IJ2HgGOPEeu4GMvjStPZQQ"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_F0HmQGOPEeu4GMvjStPZQQ" name="Tailor the process" guid="_F0HmQGOPEeu4GMvjStPZQQ" presentationName="Tailor the process" superActivities="_C9UYQWOPEeu4GMvjStPZQQ" isSynchronizedWithSource="false"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_IJ2HgGOPEeu4GMvjStPZQQ" name="Deploy the process" guid="_IJ2HgGOPEeu4GMvjStPZQQ" presentationName="Deploy the process" superActivities="_C9UYQWOPEeu4GMvjStPZQQ" isSynchronizedWithSource="false"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_BDuz0GRoEeuSENqrckJBtA" name="Identify Architecture Strategy" guid="_BDuz0GRoEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_BDuz0WRoEeuSENqrckJBtA" name="Identify Architecture Strategy" guid="_BDuz0WRoEeuSENqrckJBtA" presentationName="Identify Architecture Strategy" superActivities="_48g7gWE6EeuDLI5SA8VEZw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_CxIw0GRoEeuSENqrckJBtA" name="Plan the Release" guid="_CxIw0GRoEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_CxIw0WRoEeuSENqrckJBtA" name="Plan the Release" guid="_CxIw0WRoEeuSENqrckJBtA" presentationName="Plan the Release" superActivities="_48g7gWE6EeuDLI5SA8VEZw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_EA8L0GRoEeuSENqrckJBtA" name="Develop Test Strategy" guid="_EA8L0GRoEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_EA8L0WRoEeuSENqrckJBtA" name="Develop Test Strategy" guid="_EA8L0WRoEeuSENqrckJBtA" presentationName="Develop Test Strategy" superActivities="_48g7gWE6EeuDLI5SA8VEZw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_FMFJQGRoEeuSENqrckJBtA" name="Develop Common Vision" guid="_FMFJQGRoEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_FMFJQWRoEeuSENqrckJBtA" name="Develop Common Vision" guid="_FMFJQWRoEeuSENqrckJBtA" presentationName="Develop Common Vision" superActivities="_48g7gWE6EeuDLI5SA8VEZw"/>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_48g7gWE6EeuDLI5SA8VEZw" name="Inception" guid="_48g7gWE6EeuDLI5SA8VEZw" presentationName="Inception" superActivities="_16YAMWE6EeuDLI5SA8VEZw" breakdownElements="_1jDykWOOEeu4GMvjStPZQQ _95cOsWOOEeu4GMvjStPZQQ _C9UYQWOPEeu4GMvjStPZQQ _BDuz0WRoEeuSENqrckJBtA _CxIw0WRoEeuSENqrckJBtA _EA8L0WRoEeuSENqrckJBtA _FMFJQWRoEeuSENqrckJBtA"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6NtdoGE6EeuDLI5SA8VEZw" name="Elaboration" guid="_6NtdoGE6EeuDLI5SA8VEZw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ZE_tEGRrEeuSENqrckJBtA" name="Story Queue" guid="_ZE_tEGRrEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_ZE_tEWRrEeuSENqrckJBtA" name="Story Queue" guid="_ZE_tEWRrEeuSENqrckJBtA" presentationName="Story Queue" superActivities="_6NtdoWE6EeuDLI5SA8VEZw" breakdownElements="_4MeicGRrEeuSENqrckJBtA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4MeicGRrEeuSENqrckJBtA" name="prioritization" guid="_4MeicGRrEeuSENqrckJBtA" presentationName="Prioritization" superActivities="_ZE_tEWRrEeuSENqrckJBtA">
+            <methodElementProperty xmi:id="_4MfJgGRrEeuSENqrckJBtA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_9K9cgGB3Eeu8LsvBwJhEBw#_nVaUIGRqEeuSENqrckJBtA"/>
+          </processElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_bnVG8GRrEeuSENqrckJBtA" name="Analysis" guid="_bnVG8GRrEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_bnVG8WRrEeuSENqrckJBtA" name="Analysis" guid="_bnVG8WRrEeuSENqrckJBtA" presentationName="Analysis" superActivities="_6NtdoWE6EeuDLI5SA8VEZw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9o_uIGRuEeuSENqrckJBtA" name="Develop the Architecture" guid="_9o_uIGRuEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_9o_uIWRuEeuSENqrckJBtA" name="Develop the Architecture" guid="_9o_uIWRuEeuSENqrckJBtA" presentationName="Develop the Architecture" superActivities="_6NtdoWE6EeuDLI5SA8VEZw"/>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_6NtdoWE6EeuDLI5SA8VEZw" name="Elaboration" guid="_6NtdoWE6EeuDLI5SA8VEZw" presentationName="Elaboration" superActivities="_16YAMWE6EeuDLI5SA8VEZw" breakdownElements="_9o_uIWRuEeuSENqrckJBtA _ZE_tEWRrEeuSENqrckJBtA _bnVG8WRrEeuSENqrckJBtA"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7W23AGE6EeuDLI5SA8VEZw" name="Construction" guid="_7W23AGE6EeuDLI5SA8VEZw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ktiaUGRnEeuSENqrckJBtA" name="Prove Architecture Early" guid="_ktiaUGRnEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_ktiaUWRnEeuSENqrckJBtA" name="Prove Architecture Early" guid="_ktiaUWRnEeuSENqrckJBtA" presentationName="Prove Architecture Early" superActivities="_7W23AWE6EeuDLI5SA8VEZw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_nmx4UGRnEeuSENqrckJBtA" name="Address Changing Stakeholder Needs" guid="_nmx4UGRnEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_nmx4UWRnEeuSENqrckJBtA" name="Address Changing Stakeholder Needs" guid="_nmx4UWRnEeuSENqrckJBtA" presentationName="Address Changing Stakeholder Needs" superActivities="_7W23AWE6EeuDLI5SA8VEZw" breakdownElements="_VnCGgGRtEeuSENqrckJBtA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_VnCGgGRtEeuSENqrckJBtA" name="on_demand_planning" guid="_VnCGgGRtEeuSENqrckJBtA" presentationName="On demand planning" superActivities="_nmx4UWRnEeuSENqrckJBtA">
+            <methodElementProperty xmi:id="_VnCGgWRtEeuSENqrckJBtA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_9K9cgGB3Eeu8LsvBwJhEBw#_ZyVwsGRqEeuSENqrckJBtA"/>
+          </processElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_rUkYsGRnEeuSENqrckJBtA" name="Produce Potentially Consumable Solution" guid="_rUkYsGRnEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_rUkYsWRnEeuSENqrckJBtA" name="Produce Potentially Consumable Solution" guid="_rUkYsWRnEeuSENqrckJBtA" presentationName="Produce Potentially Consumable Solution" superActivities="_7W23AWE6EeuDLI5SA8VEZw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_slw60GRnEeuSENqrckJBtA" name="Improve Quality" guid="_slw60GRnEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_slw60WRnEeuSENqrckJBtA" name="Improve Quality" guid="_slw60WRnEeuSENqrckJBtA" presentationName="Improve Quality" superActivities="_7W23AWE6EeuDLI5SA8VEZw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_tqqGUGRnEeuSENqrckJBtA" name="Accelerate Value Delivery" guid="_tqqGUGRnEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_tqqGUWRnEeuSENqrckJBtA" name="Accelerate Value Delivery" guid="_tqqGUWRnEeuSENqrckJBtA" presentationName="Accelerate Value Delivery" superActivities="_7W23AWE6EeuDLI5SA8VEZw" breakdownElements="_cdHNgGRtEeuSENqrckJBtA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_cdHNgGRtEeuSENqrckJBtA" name="continuous_delivery_cd" guid="_cdHNgGRtEeuSENqrckJBtA" presentationName="Continuous Delivery (CD)" superActivities="_tqqGUWRnEeuSENqrckJBtA">
+            <methodElementProperty xmi:id="_cdHNgWRtEeuSENqrckJBtA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_9K9cgGB3Eeu8LsvBwJhEBw#_ZgmZIGE4EeuDLI5SA8VEZw"/>
+          </processElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_jRXacGRrEeuSENqrckJBtA" name="Test" guid="_jRXacGRrEeuSENqrckJBtA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_TxxYkGRuEeuSENqrckJBtA" name="Implement Tests" guid="_TxxYkGRuEeuSENqrckJBtA">
+            <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_TxxYkWRuEeuSENqrckJBtA" name="Implement Tests" guid="_TxxYkWRuEeuSENqrckJBtA" presentationName="Implement Tests" superActivities="_jRXacWRrEeuSENqrckJBtA"/>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_WwhosGRuEeuSENqrckJBtA" name="Run Test" guid="_WwhosGRuEeuSENqrckJBtA">
+            <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_WwhosWRuEeuSENqrckJBtA" name="Run Test" guid="_WwhosWRuEeuSENqrckJBtA" presentationName="Run Tests" superActivities="_jRXacWRrEeuSENqrckJBtA"/>
+          </childPackages>
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_jRXacWRrEeuSENqrckJBtA" name="Test" guid="_jRXacWRrEeuSENqrckJBtA" presentationName="Test" superActivities="_7W23AWE6EeuDLI5SA8VEZw" breakdownElements="_TxxYkWRuEeuSENqrckJBtA _WwhosWRuEeuSENqrckJBtA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_CcVzQGRtEeuSENqrckJBtA" name="Prepare Environment" guid="_CcVzQGRtEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_CcVzQWRtEeuSENqrckJBtA" name="Prepare Environment" guid="_CcVzQWRtEeuSENqrckJBtA" presentationName="Prepare Environment" superActivities="_7W23AWE6EeuDLI5SA8VEZw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_F1pRYGRtEeuSENqrckJBtA" name="Plan and Manage Iteration" guid="_F1pRYGRtEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_F1pRYWRtEeuSENqrckJBtA" name="Plan and Manage Iteration" guid="_F1pRYWRtEeuSENqrckJBtA" presentationName="Plan and Manage Iteration" superActivities="_7W23AWE6EeuDLI5SA8VEZw" breakdownElements="_W64UAGRtEeuSENqrckJBtA _XTm9EGRtEeuSENqrckJBtA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_W64UAGRtEeuSENqrckJBtA" name="continuous_integration_ci" guid="_W64UAGRtEeuSENqrckJBtA" presentationName="Continuous Integration (CI)" superActivities="_F1pRYWRtEeuSENqrckJBtA">
+            <methodElementProperty xmi:id="_W64UAWRtEeuSENqrckJBtA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_9K9cgGB3Eeu8LsvBwJhEBw#_U9v5AGE4EeuDLI5SA8VEZw"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_XTm9EGRtEeuSENqrckJBtA" name="continuous_delivery_cd" guid="_XTm9EGRtEeuSENqrckJBtA" presentationName="Continuous Delivery (CD)" superActivities="_F1pRYWRtEeuSENqrckJBtA">
+            <methodElementProperty xmi:id="_XTm9EWRtEeuSENqrckJBtA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_9K9cgGB3Eeu8LsvBwJhEBw#_ZgmZIGE4EeuDLI5SA8VEZw"/>
+          </processElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NIi3QGRtEeuSENqrckJBtA" name="Develop Solution Increment" guid="_NIi3QGRtEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_NIi3QWRtEeuSENqrckJBtA" name="Develop Solution Increment" guid="_NIi3QWRtEeuSENqrckJBtA" presentationName="Develop Solution Increment" superActivities="_7W23AWE6EeuDLI5SA8VEZw" breakdownElements="_SkosgGRtEeuSENqrckJBtA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_SkosgGRtEeuSENqrckJBtA" name="standup_meeting" guid="_SkosgGRtEeuSENqrckJBtA" presentationName="Standup meeting" superActivities="_NIi3QWRtEeuSENqrckJBtA">
+            <methodElementProperty xmi:id="_SkosgWRtEeuSENqrckJBtA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_9K9cgGB3Eeu8LsvBwJhEBw#_O2vJUGRrEeuSENqrckJBtA"/>
+          </processElements>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_7W23AWE6EeuDLI5SA8VEZw" name="Construction" guid="_7W23AWE6EeuDLI5SA8VEZw" presentationName="Construction" superActivities="_16YAMWE6EeuDLI5SA8VEZw" breakdownElements="_F1pRYWRtEeuSENqrckJBtA _CcVzQWRtEeuSENqrckJBtA _ktiaUWRnEeuSENqrckJBtA _nmx4UWRnEeuSENqrckJBtA _NIi3QWRtEeuSENqrckJBtA _rUkYsWRnEeuSENqrckJBtA _slw60WRnEeuSENqrckJBtA _jRXacWRrEeuSENqrckJBtA _tqqGUWRnEeuSENqrckJBtA"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9tmr8GE6EeuDLI5SA8VEZw" name="Transition" guid="_9tmr8GE6EeuDLI5SA8VEZw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_c7KDIGRnEeuSENqrckJBtA" name="Ensure Production Readiness" guid="_c7KDIGRnEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_c7KDIWRnEeuSENqrckJBtA" name="Ensure Production Readiness" guid="_c7KDIWRnEeuSENqrckJBtA" presentationName="Ensure Production Readiness" superActivities="_9tmr8WE6EeuDLI5SA8VEZw" breakdownElements="_210RgGRrEeuSENqrckJBtA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_210RgGRrEeuSENqrckJBtA" name="product_release" guid="_210RgGRrEeuSENqrckJBtA" presentationName="Product Release" superActivities="_c7KDIWRnEeuSENqrckJBtA">
+            <methodElementProperty xmi:id="_2104kGRrEeuSENqrckJBtA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_9K9cgGB3Eeu8LsvBwJhEBw#_Jp2GYGE5EeuDLI5SA8VEZw"/>
+          </processElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_FNoEkGRsEeuSENqrckJBtA" name="Plan and Manage" guid="_FNoEkGRsEeuSENqrckJBtA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_jxCjkGRsEeuSENqrckJBtA" name="Prepare Environment" guid="_jxCjkGRsEeuSENqrckJBtA">
+            <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_jxCjkWRsEeuSENqrckJBtA" name="Prepare Environment" guid="_jxCjkWRsEeuSENqrckJBtA" presentationName="Prepare Environment" superActivities="_FNoEkWRsEeuSENqrckJBtA"/>
+          </childPackages>
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_FNoEkWRsEeuSENqrckJBtA" name="Plan and Manage" guid="_FNoEkWRsEeuSENqrckJBtA" presentationName="Plan and Manage" superActivities="_9tmr8WE6EeuDLI5SA8VEZw" breakdownElements="_jxCjkWRsEeuSENqrckJBtA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Ih5RsGRsEeuSENqrckJBtA" name="Test Solution" guid="_Ih5RsGRsEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_Ih5RsWRsEeuSENqrckJBtA" name="Test Solution" guid="_Ih5RsWRsEeuSENqrckJBtA" presentationName="Test Solution" superActivities="_9tmr8WE6EeuDLI5SA8VEZw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_LilbgGRsEeuSENqrckJBtA" name="Finalize Product Documentation and Training" guid="_LilbgGRsEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_LilbgWRsEeuSENqrckJBtA" name="Finalize Product Documentation and Training" guid="_LilbgWRsEeuSENqrckJBtA" presentationName="Finalize Product Documentation and Training" superActivities="_9tmr8WE6EeuDLI5SA8VEZw" breakdownElements="_rhvfwGRsEeuSENqrckJBtA _t1ZkcGRsEeuSENqrckJBtA _vzPKIGRsEeuSENqrckJBtA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_rhvfwGRsEeuSENqrckJBtA" name="Develop product documentation" guid="_rhvfwGRsEeuSENqrckJBtA" presentationName="Develop product documentation" superActivities="_LilbgWRsEeuSENqrckJBtA" isSynchronizedWithSource="false"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_t1ZkcGRsEeuSENqrckJBtA" name="Develop user documentation" guid="_t1ZkcGRsEeuSENqrckJBtA" presentationName="Develop user documentation" superActivities="_LilbgWRsEeuSENqrckJBtA" isSynchronizedWithSource="false"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_vzPKIGRsEeuSENqrckJBtA" name="Develop support documentation" guid="_vzPKIGRsEeuSENqrckJBtA" presentationName="Develop support documentation" superActivities="_LilbgWRsEeuSENqrckJBtA" isSynchronizedWithSource="false"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_VT6ysGRsEeuSENqrckJBtA" name="Deploy Release to Production" guid="_VT6ysGRsEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_VT6ysWRsEeuSENqrckJBtA" name="Deploy Release to Production" guid="_VT6ysWRsEeuSENqrckJBtA" presentationName="Deploy Release to Production Environment" superActivities="_9tmr8WE6EeuDLI5SA8VEZw"/>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_9tmr8WE6EeuDLI5SA8VEZw" name="Transition" guid="_9tmr8WE6EeuDLI5SA8VEZw" presentationName="Transition" superActivities="_16YAMWE6EeuDLI5SA8VEZw" breakdownElements="_FNoEkWRsEeuSENqrckJBtA _Ih5RsWRsEeuSENqrckJBtA _LilbgWRsEeuSENqrckJBtA _c7KDIWRnEeuSENqrckJBtA _VT6ysWRsEeuSENqrckJBtA"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_AWZTIGE7EeuDLI5SA8VEZw" name="Reflection" guid="_AWZTIGE7EeuDLI5SA8VEZw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Yj1DIGOOEeu4GMvjStPZQQ" name="Review Products and Processes" guid="_Yj1DIGOOEeu4GMvjStPZQQ">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_Yj1DIWOOEeu4GMvjStPZQQ" name="Review Products and Processes" guid="_Yj1DIWOOEeu4GMvjStPZQQ" presentationName="Review Products and Processes" superActivities="_AWZTIWE7EeuDLI5SA8VEZw" breakdownElements="_xASBgGRrEeuSENqrckJBtA _GkNH4GRqEeuSENqrckJBtA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_GkNH4GRqEeuSENqrckJBtA" name="Develop Project Review Report" guid="_GkNH4GRqEeuSENqrckJBtA" presentationName="Develop Project Review Report" superActivities="_Yj1DIWOOEeu4GMvjStPZQQ" isSynchronizedWithSource="false"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_xASBgGRrEeuSENqrckJBtA" name="review_meeting" guid="_xASBgGRrEeuSENqrckJBtA" presentationName="Review meeting" superActivities="_Yj1DIWOOEeu4GMvjStPZQQ">
+            <methodElementProperty xmi:id="_xASokGRrEeuSENqrckJBtA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_9K9cgGB3Eeu8LsvBwJhEBw#_Ls3OUGRrEeuSENqrckJBtA"/>
+          </processElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ovkvkGRrEeuSENqrckJBtA" name="Kaizen" guid="_ovkvkGRrEeuSENqrckJBtA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_ovkvkWRrEeuSENqrckJBtA" name="Kaizen" guid="_ovkvkWRrEeuSENqrckJBtA" presentationName="Kaizen" superActivities="_AWZTIWE7EeuDLI5SA8VEZw" breakdownElements="_uUiM8GRrEeuSENqrckJBtA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_uUiM8GRrEeuSENqrckJBtA" name="sprint_retrospective" guid="_uUiM8GRrEeuSENqrckJBtA" presentationName="Sprint Retrospective" superActivities="_ovkvkWRrEeuSENqrckJBtA">
+            <methodElementProperty xmi:id="_uUqIwGRrEeuSENqrckJBtA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_9K9cgGB3Eeu8LsvBwJhEBw#_FtLR8GE4EeuDLI5SA8VEZw"/>
+          </processElements>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_AWZTIWE7EeuDLI5SA8VEZw" name="Reflection" guid="_AWZTIWE7EeuDLI5SA8VEZw" presentationName="Reflection" superActivities="_16YAMWE6EeuDLI5SA8VEZw" breakdownElements="_Yj1DIWOOEeu4GMvjStPZQQ _ovkvkWRrEeuSENqrckJBtA"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_16YAMWE6EeuDLI5SA8VEZw" name="Project" guid="_16YAMWE6EeuDLI5SA8VEZw" presentationName="Project" superActivities="_N9B9YWE6EeuDLI5SA8VEZw" breakdownElements="_48g7gWE6EeuDLI5SA8VEZw _6NtdoWE6EeuDLI5SA8VEZw _7W23AWE6EeuDLI5SA8VEZw _9tmr8WE6EeuDLI5SA8VEZw _AWZTIWE7EeuDLI5SA8VEZw"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_N9B9YWE6EeuDLI5SA8VEZw" name="Scrumbanfall Process for Saba" guid="_N9B9YWE6EeuDLI5SA8VEZw" presentationName="Scrumbanfall Process for Saba" breakdownElements="_tf1c0WE6EeuDLI5SA8VEZw _16YAMWE6EeuDLI5SA8VEZw _ylo5AWE6EeuDLI5SA8VEZw">
+      <presentation xmi:id="-P9qXk5oAmGDVaQOojRHU5A" href="uma://-P9qXk5oAmGDVaQOojRHU5A#-P9qXk5oAmGDVaQOojRHU5A"/>
+      <defaultContext href="uma://_r2NzsGB2Eeu8LsvBwJhEBw#_GuUT8GE6EeuDLI5SA8VEZw"/>
+      <validContext href="uma://_r2NzsGB2Eeu8LsvBwJhEBw#_GuUT8GE6EeuDLI5SA8VEZw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

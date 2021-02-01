@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_aV7-cWB3Eeu8LsvBwJhEBw" guid="_aV7-cWB3Eeu8LsvBwJhEBw"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_aV7-YGB3Eeu8LsvBwJhEBw" name="Scrumban" guid="_aV7-YGB3Eeu8LsvBwJhEBw" briefDescription="Scrumban is an Agile management methodology describing hybrids of Scrum and Kanban." authors="Corey Ladas, 2009&#xD;&#xA;">
+    <methodElementProperty xmi:id="_aV7-c2B3Eeu8LsvBwJhEBw" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aV7-YWB3Eeu8LsvBwJhEBw" name="Content" guid="_aV7-YWB3Eeu8LsvBwJhEBw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aV7-YmB3Eeu8LsvBwJhEBw" name="Categories" guid="_aV7-YmB3Eeu8LsvBwJhEBw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aV7-Y2B3Eeu8LsvBwJhEBw" name="Domains" guid="_aV7-Y2B3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aV7-ZGB3Eeu8LsvBwJhEBw" name="Disciplines" guid="_aV7-ZGB3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aV7-ZWB3Eeu8LsvBwJhEBw" name="RoleSets" guid="_aV7-ZWB3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aV7-ZmB3Eeu8LsvBwJhEBw" name="WP Types" guid="_aV7-ZmB3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aV7-Z2B3Eeu8LsvBwJhEBw" name="Tools" guid="_aV7-Z2B3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aV7-aGB3Eeu8LsvBwJhEBw" name="StandardCategories" guid="_aV7-aGB3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aV7-aWB3Eeu8LsvBwJhEBw" name="CustomCategories" guid="_aV7-aWB3Eeu8LsvBwJhEBw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aV7-amB3Eeu8LsvBwJhEBw" name="Hidden" guid="_aV7-amB3Eeu8LsvBwJhEBw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_aV7-a2B3Eeu8LsvBwJhEBw" name="Custom Categories" guid="_aV7-a2B3Eeu8LsvBwJhEBw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aV7-bGB3Eeu8LsvBwJhEBw" name="CoreContent" guid="_aV7-bGB3Eeu8LsvBwJhEBw"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_aV7-bWB3Eeu8LsvBwJhEBw" name="CapabilityPatterns" guid="_aV7-bWB3Eeu8LsvBwJhEBw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_aV7-bmB3Eeu8LsvBwJhEBw" name="DeliveryProcesses" guid="_aV7-bmB3Eeu8LsvBwJhEBw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_aV7-b2B3Eeu8LsvBwJhEBw" name="ProcessContributions" guid="_aV7-b2B3Eeu8LsvBwJhEBw"/>
+    <bases href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_6Ab_EOF4Edyp34pwdTOSVQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

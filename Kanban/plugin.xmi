@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_0yze0WB3Eeu8LsvBwJhEBw" guid="_0yze0WB3Eeu8LsvBwJhEBw"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_0yzewGB3Eeu8LsvBwJhEBw" name="Kanban" guid="_0yzewGB3Eeu8LsvBwJhEBw" briefDescription="Kanban is a lean method to manage and improve work across human systems.">
+    <methodElementProperty xmi:id="_0yze02B3Eeu8LsvBwJhEBw" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0yzewWB3Eeu8LsvBwJhEBw" name="Content" guid="_0yzewWB3Eeu8LsvBwJhEBw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0yzewmB3Eeu8LsvBwJhEBw" name="Categories" guid="_0yzewmB3Eeu8LsvBwJhEBw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0yzew2B3Eeu8LsvBwJhEBw" name="Domains" guid="_0yzew2B3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0yzexGB3Eeu8LsvBwJhEBw" name="Disciplines" guid="_0yzexGB3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0yzexWB3Eeu8LsvBwJhEBw" name="RoleSets" guid="_0yzexWB3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0yzexmB3Eeu8LsvBwJhEBw" name="WP Types" guid="_0yzexmB3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0yzex2B3Eeu8LsvBwJhEBw" name="Tools" guid="_0yzex2B3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0yzeyGB3Eeu8LsvBwJhEBw" name="StandardCategories" guid="_0yzeyGB3Eeu8LsvBwJhEBw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0yzeyWB3Eeu8LsvBwJhEBw" name="CustomCategories" guid="_0yzeyWB3Eeu8LsvBwJhEBw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0yzeymB3Eeu8LsvBwJhEBw" name="Hidden" guid="_0yzeymB3Eeu8LsvBwJhEBw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_0yzey2B3Eeu8LsvBwJhEBw" name="Custom Categories" guid="_0yzey2B3Eeu8LsvBwJhEBw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0yzezGB3Eeu8LsvBwJhEBw" name="CoreContent" guid="_0yzezGB3Eeu8LsvBwJhEBw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OJJOIGE3EeuDLI5SA8VEZw" name="kanban" guid="_OJJOIGE3EeuDLI5SA8VEZw" presentationName="Kanban">
+          <methodElementProperty xmi:id="_OJLDUGE3EeuDLI5SA8VEZw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_h4mbUGE3EeuDLI5SA8VEZw" name="me_edited" value="true"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0yzezWB3Eeu8LsvBwJhEBw" name="CapabilityPatterns" guid="_0yzezWB3Eeu8LsvBwJhEBw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0yzezmB3Eeu8LsvBwJhEBw" name="DeliveryProcesses" guid="_0yzezmB3Eeu8LsvBwJhEBw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0yzez2B3Eeu8LsvBwJhEBw" name="ProcessContributions" guid="_0yzez2B3Eeu8LsvBwJhEBw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>
